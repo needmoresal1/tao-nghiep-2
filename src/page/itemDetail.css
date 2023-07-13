@@ -1,0 +1,68 @@
+.container_detail{
+    height: fit-content;
+    width: 100%;
+    padding: 180px 90px;
+    background-color: #004830;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    box-sizing: border-box;
+    
+}
+.container_detail > .left{
+    width: 600px;
+    height: 600px;
+    border: black solid;
+    object-fit: scale-down;
+    padding: 0px 50px;
+}
+.container_detail>.right{
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+.container_detail> .right>.head{
+    color: white;
+
+}
+.container_detail>.right>.head>.title{
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.container_detail>.right>.head>.author{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.container_detail>.right>.head>.des{
+    font-size: 32px;
+}
+.container_detail>.right>.bottom{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    gap: 2px;
+  
+}
+.container_detail>.right>.bottom>.bottom_price{
+    align-self: end;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.container_detail>.right>.bottom>.bottom_price>.review{
+    border-radius: 40px ;
+    background-color: #F2C9C3;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+.container_detail>.right>.bottom>.bottom_price>.price{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}

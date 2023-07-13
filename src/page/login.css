@@ -1,0 +1,116 @@
+body{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    height: 100vh;
+}
+
+.login_container{
+    overflow: hidden;
+    position: absolute;
+    width: fit-content;
+    border-radius: 20px;
+    border: #414040 solid;
+    background-color: #004830;
+    left: 50%;
+    top:50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transform: translate(-50%,-50%);    
+        border-radius: 20px;
+        }
+
+.login_container > *{
+    border-radius: inherit;
+}
+.login_container > div{
+    padding: 20px 0px;
+    display: flex;
+    background-color: #004830;
+    justify-content: center;
+}
+.login_container>div>h1{
+    color: white;
+}
+.login_fields{
+    border-radius: 0;
+    background-color: #006745;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    /* login button */
+        & input    {
+            background-color: #EAEAEA;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 20px;
+        }
+}
+.login_fields>input{
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #4E4E4E;
+    padding:5px 20px;
+
+}
+.login_input{
+    position: relative;
+}
+
+.login_input>label{
+    position: absolute;
+    left: 5px;
+}
+/* login input field */
+.login_input> input{
+    width: 350px;
+    height: 20px;
+    padding: 10px 24px;
+    background-color: #EAEAEA ;
+    border-radius: 20px;
+    border: none;
+}
+.login_input > a{
+    color: #F2C9C3;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+}
+.login_bottom {
+    text-align: center;
+    margin-top: -20px;
+}
+.login_bottom> * {
+    margin: 10px;
+    color: #FFFFFF;
+}
+.login_bottom> p {
+    font-size: 13px;
+}
+.login_bottom>h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.login_bottom_options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin-top: 24px;
+}
+.login_bottom_options>.box{
+    color: #EAEAEA;
+    font-size: 32px;
+}
+
+/* hover css */
+.login_bottom_options>.box:hover{
+    cursor: pointer;
+}

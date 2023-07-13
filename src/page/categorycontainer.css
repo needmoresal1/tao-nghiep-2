@@ -1,0 +1,8 @@
+.category_container{
+    display: flex;
+    gap:20px;
+    flex-direction: row;
+    padding: 18px 40px;
+    background-color: #002116;
+    z-index: -3;
+}

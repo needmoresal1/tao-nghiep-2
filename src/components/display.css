@@ -1,0 +1,26 @@
+.container_display{
+    border: black solid;
+    height: 105px;
+    border-radius: inherit;
+    background-color: #277E61;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.container_display>.right{
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+.container_display>.right>.img{
+    height: 75px;
+    width: 75px;
+object-fit: cover;
+}
+
+.container_display>.right>.title {
+    color: white;
+    font-size: 24px;
+}

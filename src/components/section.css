@@ -1,0 +1,44 @@
+.section{
+    position: relative;
+    display: flex;
+    padding: 56px 0px;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 100px;
+    align-items: center;
+    gap: 300px;
+}
+.section > .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #912112;
+    z-index: -1;
+}
+.section >.bg_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../../img/section/sc_bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+.section>.section_con{
+    width: 400px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-height: 50px;
+    overflow: hidden;
+    justify-self: center;
+    & div {
+            margin: 0px;
+            font-size: 24px;
+            font-weight: 650;
+
+            color: aliceblue;
+    }
+    }
